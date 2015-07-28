@@ -35,3 +35,16 @@ And type `http://127.0.0.1:1313/` in your web browser.
 That's it. Happy Coding.
 
 
+## 記事追加
+
+トップで`hugo new product/{名前}.{html | md}`で作る。
+ファイル追加でもいい
+
+
+## リスト追加
+
+`/layout/section/blog.html`とか作る。あとで調べるけど`/layout/_default/section.html`からこぴってください。
+
+/public`配下にhtmlができるのでそれをリリースする(自動化はちょっと待って)
+
+いらないファイルが有るので消す
